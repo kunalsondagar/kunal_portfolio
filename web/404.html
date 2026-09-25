@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kunal Sondagar | Flutter Developer</title>
+  <style>
+    html, body { background-color: #07090F; color: #E6E9F2; margin: 0; }
+  </style>
+  <script>
+    // Flutter uses clean path URLs (/projects/ciya). Static hosts do not know
+    // those routes, so hand the original path back to the app on index.html.
+    // Netlify, Vercel, Firebase, GitHub Pages and Cloudflare Pages can all be
+    // pointed at this file as the not-found document.
+    var l = window.location;
+    l.replace(
+      l.protocol + '//' + l.host + l.pathname.replace(/[^/]*$/, '') +
+      'index.html' + l.search + l.hash
+    );
+  </script>
+</head>
+<body></body>
+</html>
